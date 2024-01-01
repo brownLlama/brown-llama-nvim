@@ -13,7 +13,7 @@ vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
 -- Search Options
-vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
+vim.keymap.set("n", "<Esc>", ":nohlsearch<CR>", { noremap = true })
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
