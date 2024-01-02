@@ -17,6 +17,7 @@ Configuration of the Neovim. It contains following plugins.
 - **GitHub Copilot** (Copilot for suggestion and code completion)
 - **Leap** (Faster Vim movements)
 - **Toggle Term** (Toggle terminal within NeoVim)
+- **Mini.Comment** (Commenting out by gcc)
 
 TODOs:
 
