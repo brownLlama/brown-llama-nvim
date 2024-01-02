@@ -13,10 +13,14 @@ Configuration of the Neovim. It contains following plugins.
 - **NeoTree** (File explorer)
 - **Telescope**
 - **Treesitter**
+- **Auto Pairs** (Auto close the brackets)
+- **GitHub Copilot** (Copilot for suggestion and code completion)
+- **Leap** (Faster Vim movements)
+- **Toggle Term** (Toggle terminal within NeoVim)
 
 TODOs:
 
-- Auto bracket closing
-- GitHub Copilot
-- Leap
-- Toggle Term
+- Indent line
+- Buffers
+- Multi-line selection
+- Cut and Delete
