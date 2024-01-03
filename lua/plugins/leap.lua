@@ -1,3 +1,5 @@
+-- Jump to any location using s/S keys.
+
 return {
 	"ggandor/leap.nvim",
 	dependencies = {
