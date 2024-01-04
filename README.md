@@ -3,25 +3,31 @@
 Configuration of the Neovim. It contains following plugins.
 
 - **Alpha** (Star-up screen)
-- **Auto Save** (As name suggest, it auto-save when changed from `Insert Mode` to `Normal Mode.`)
+- **Auto Completion**
+- **Auto Pairs** (Opens and Closes all types of braches and quotes)
+- **Auto Save** (As name suggest, it auto-save when changed from `Insert Mode` to `Normal Mode.` Currently disabled.)
+- **Bufferline** (Creates Bufferline on the top.)
 - **Catppuccin** (Theme)
-- **Completion** (Auto completion)
+- **Copilot** (Official Github Copilot plugin for suggestions)
+- **Git-Diff** (Show the git differences in vertical splits)
+- **Git-Graph** (Git graphs with better coloring and lines)
 - **Gitsigns** (Git signs are shown in the left side of buffer)
+- **Indent-blankline** (Vertical lines when there is indent to show, works nice to separate functions.)
 - **Lazygit** (Toggle Lazygit within Neovim)
-- **LSP & Null-ls** (LSP for programming language. These needs to be updated & installed as you want LSP for new language)
+- **Leap** (Faster/jumping Vim movements)
+- **LSP & None/Null-ls** (LSP for programming language. These needs to be updated & installed as you want LSP for new language)
 - **LuaLine** (Status line on the bottom)
+- **Markdown Preview** (Preview panel for md files)
+- **Mini.Comment** (Commenting out by gcc)
+- **Mini.Move** (Move the lines horizontally or vertically)
 - **NeoTree** (File explorer)
 - **Telescope**
-- **Treesitter**
-- **Auto Pairs** (Auto close the brackets)
-- **GitHub Copilot** (Copilot for suggestion and code completion)
-- **Leap** (Faster Vim movements)
 - **Toggle Term** (Toggle terminal within NeoVim)
-- **Mini.Comment** (Commenting out by gcc)
-- **Indent Blankline** (Indent lines are shown)
+- **Treesitter**
+- **z-copilot & -cmp** (Makes Copilot experience smooth. Currently disabled)
 
 TODOs:
 
-- Buffers
 - Multi-line selection
 - Cut and Delete
+- which key
