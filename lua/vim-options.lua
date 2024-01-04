@@ -12,16 +12,6 @@ vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
 vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
--- Horizontal Split
-vim.keymap.set("n", "<leader>v", "<cmd>vsplit<cr>")
-
--- Save Shortcut
-vim.keymap.set("n", "<leader>w", "<cmd>w<cr>")
-
--- Close Buffer
-vim.keymap.set("n", "<leader>q", "<cmd>bw<cr>")
-
--- Search
 vim.keymap.set("n", "<Esc>", ":nohlsearch<CR>", { noremap = true })
 vim.o.ignorecase = true
 vim.o.smartcase = true

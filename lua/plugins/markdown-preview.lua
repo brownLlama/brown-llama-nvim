@@ -1,21 +1,20 @@
 return {
-  "0x00-ketsu/markdown-preview.nvim",
-  ft = { "md", "markdown", "mkd", "mkdn", "mdwn", "mdown", "mdtxt", "mdtext", "rmd", "wiki" },
-  config = function()
-    require("markdown-preview").setup({
-      term = {
-        -- reload term when rendered markdown file changed
-        reload = {
-          enable = true,
-          events = { "InsertLeave", "TextChanged" },
-        },
-        direction = "vertical", -- choices: vertical / horizontal
-        keys = {
-          close = { "q", "<Esc>" },
-          refresh = "r",
-        },
-      },
-      vim.keymap.set("n", "<leader>mp", ":MPOpen<CR>", { noremap = true, silent = true }),
-    })
-  end,
+	"0x00-ketsu/markdown-preview.nvim",
+	ft = { "md", "markdown", "mkd", "mkdn", "mdwn", "mdown", "mdtxt", "mdtext", "rmd", "wiki" },
+	config = function()
+		require("markdown-preview").setup({
+			term = {
+				-- reload term when rendered markdown file changed
+				reload = {
+					enable = true,
+					events = { "InsertLeave", "TextChanged" },
+				},
+				direction = "vertical", -- choices: vertical / horizontal
+				keys = {
+					close = { "q", "<Esc>" },
+					refresh = "r",
+				},
+			},
+		})
+	end,
 }

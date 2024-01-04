@@ -7,7 +7,4 @@ return {
 	dependencies = {
 		"tpope/vim-fugitive",
 	},
-	config = function()
-		vim.keymap.set("n", "<leader>gg", ":Flog<CR>", { noremap = true, silent = true })
-	end,
 }

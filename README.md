@@ -6,7 +6,7 @@ Configuration of the Neovim. It contains following plugins.
 - **Auto Completion**
 - **Auto Pairs** (Opens and Closes all types of braches and quotes)
 - **Auto Save** (As name suggest, it auto-save when changed from `Insert Mode` to `Normal Mode.` Currently disabled.)
-- **Bufferline** (Creates Bufferline on the top.)
+- **Bufferline** (Creates Bufferline on the top)
 - **Catppuccin** (Theme)
 - **Copilot** (Official Github Copilot plugin for suggestions)
 - **Git-Diff** (Show the git differences in vertical splits)
@@ -30,4 +30,3 @@ TODOs:
 
 - Multi-line selection
 - Cut and Delete
-- which key
