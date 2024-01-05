@@ -29,5 +29,4 @@ Configuration of the Neovim. It contains following plugins.
 
 TODOs:
 
-- Multi-line selection
 - Cut and Delete
