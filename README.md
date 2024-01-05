@@ -21,6 +21,7 @@ Configuration of the Neovim. It contains following plugins.
 - **Mini.Comment** (Commenting out by gcc)
 - **Mini.Move** (Move the lines horizontally or vertically)
 - **NeoTree** (File explorer)
+- **Noice** (Better command line and notification bar)
 - **Telescope**
 - **Toggle Term** (Toggle terminal within NeoVim)
 - **Treesitter**
