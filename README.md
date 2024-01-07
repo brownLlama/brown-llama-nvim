@@ -1,4 +1,4 @@
-# Brown Llama
+# 🦙 Brown Llama 🦙
 
 Embarking on the journey with Neovim felt like stepping into a bustling metropolis of plugins and distros. I leaped from one distro to another in pursuit of that elusive perfect setting—always feeling like something was missing in each iteration. The endless tweaking to tailor it to my preferences was no walk in the park. It demanded heaps of courage, effort, and time.
 
@@ -6,7 +6,7 @@ After a wild expedition through the Neovim universe, I proudly present my brainc
 
 Welcome to Brown Llama—where my Neovim journey meets my quirks. I hope you find joy in it just as much as I have.
 
-## Plugins
+## 🦙 Plugins 🦙
 
 It contains following plugins and their short description.
 
