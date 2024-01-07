@@ -1,8 +1,16 @@
-# Llama Nvim
+# Brown Llama
 
-Configuration of the Neovim. It contains following plugins.
+Embarking on the journey with Neovim felt like stepping into a bustling metropolis of plugins and distros. I leaped from one distro to another in pursuit of that elusive perfect setting—always feeling like something was missing in each iteration. The endless tweaking to tailor it to my preferences was no walk in the park. It demanded heaps of courage, effort, and time.
 
-- **Alpha** (Star-up screen)
+After a wild expedition through the Neovim universe, I proudly present my brainchild: "Brown Llama." It's my humble attempt to distill complexity into simplicity, fashioning a Neovim setup that resonates with my tastes.
+
+Welcome to Brown Llama—where my Neovim journey meets my quirks. I hope you find joy in it just as much as I have.
+
+## Plugins
+
+It contains following plugins and their short description.
+
+- **Alpha** (Start-up screen)
 - **Auto Completion**
 - **Auto Pairs** (Opens and Closes all types of braches and quotes)
 - **Auto Save** (As name suggest, it auto-save when changed from `Insert Mode` to `Normal Mode.` Currently disabled.)
@@ -28,6 +36,6 @@ Configuration of the Neovim. It contains following plugins.
 - **Treesitter**
 - **z-copilot & -cmp** (Makes Copilot experience smooth. Currently disabled)
 
-TODOs:
+## TODOs:
 
 - Delete words inside brackets
