@@ -30,3 +30,4 @@ Configuration of the Neovim. It contains following plugins.
 TODOs:
 
 - Cut and Delete
+- Delete words inside brackets
