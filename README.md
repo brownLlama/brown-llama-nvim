@@ -13,6 +13,7 @@ Configuration of the Neovim. It contains following plugins.
 - **Git-Graph** (Git graphs with better coloring and lines)
 - **Gitsigns** (Git signs are shown in the left side of buffer)
 - **Indent-blankline** (Vertical lines when there is indent to show, works nice to separate functions.)
+- **Karenyank** (Differntiating between Copy, Paste and Delete)
 - **Lazygit** (Toggle Lazygit within Neovim)
 - **Leap** (Faster/jumping Vim movements)
 - **LSP & None/Null-ls** (LSP for programming language. These needs to be updated & installed as you want LSP for new language)
@@ -29,5 +30,4 @@ Configuration of the Neovim. It contains following plugins.
 
 TODOs:
 
-- Cut and Delete
 - Delete words inside brackets
