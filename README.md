@@ -34,8 +34,7 @@ It contains following plugins and their short description.
 - **Telescope**
 - **Toggle Term** (Toggle terminal within NeoVim)
 - **Treesitter**
+- **Vim-Expand-Region** (Select a word and expand the selection to next bracket/function)
+- **Vim-Visual-Multi** (Selecting Multi lines)
+- **whichkeys** (Shows the description of combination keys)
 - **z-copilot & -cmp** (Makes Copilot experience smooth. Currently disabled)
-
-## TODOs:
-
-- Delete words inside brackets
