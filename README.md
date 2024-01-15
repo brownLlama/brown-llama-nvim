@@ -30,7 +30,7 @@ It contains following plugins and their short description.
 - **Mini.Comment** (Commenting out by gcc)
 - **Mini.Move** (Move the lines horizontally or vertically)
 - **NeoTree** (File explorer)
-- **Noice** (Better command line and notification bar)
+- **Noice** (Better command line and notification bar. Currently disabled.)
 - **Telescope**
 - **Toggle Term** (Toggle terminal within NeoVim)
 - **Treesitter**
@@ -38,3 +38,7 @@ It contains following plugins and their short description.
 - **Vim-Visual-Multi** (Selecting Multi lines)
 - **whichkeys** (Shows the description of combination keys)
 - **z-copilot & -cmp** (Makes Copilot experience smooth. Currently disabled)
+
+TODO
+
+- install vim-surround (to surround the selected text with the parathesis or brackets)
