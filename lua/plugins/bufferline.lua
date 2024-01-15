@@ -5,7 +5,7 @@ return {
   config = function()
     local bufferline = require("bufferline")
     bufferline.setup({})
-    vim.keymap.set("n", "<S-h>", ":BufferLineCycleNext<CR>")
-    vim.keymap.set("n", "<S-l>", ":BufferLineCyclePrev<CR>")
+    vim.keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>")
+    vim.keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>")
   end,
 }
