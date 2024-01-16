@@ -41,4 +41,4 @@ It contains following plugins and their short description.
 
 TODO
 
-- install vim-surround (to surround the selected text with the parathesis or brackets)
+- auto-save only when there is change in buffer/window
