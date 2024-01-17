@@ -30,6 +30,7 @@ It contains following plugins and their short description.
 - **Mini.Move** (Move the lines horizontally or vertically)
 - **NeoTree** (File explorer)
 - **Noice** (Better command line and notification bar. Currently disabled.)
+- **Nvim-Material-Icon** (Material icons for the file explorer.)
 - **SOS** (Auto save on lost focus and buffer leave.)
 - **Telescope**
 - **Toggle Term** (Toggle terminal within NeoVim)
