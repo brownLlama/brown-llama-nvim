@@ -11,6 +11,7 @@ return {
 
 -- Keymaps
 -- surr*ound_words             ysiw)           (surround_words)
+-- surround_selected_text      veeS"           "surround selected text"
 -- surrouding entire line      yss)            (surrounding entire line)
 -- *make strings               ys$"            "make strings"
 -- [delete ar*ound me!]        ds]             delete around me!
