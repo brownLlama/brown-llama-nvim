@@ -35,11 +35,9 @@ return {
         -- Git
         g = {
           name = "Git",
-          c = { "<cmd>DiffviewClose<cr>", "Git Diff Close" },
           g = { "<cmd>Flog<cr>", "Git Graph" },
           h = { "<cmd>DiffviewFileHistory<cr>", "Git Diff History" },
           l = { "<cmd>LazyGit<cr>", "LazyGit" },
-          o = { "<cmd>DiffviewOpen<cr>", "Git Diff Open" },
         },
       },
     })
