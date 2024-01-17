@@ -13,7 +13,6 @@ It contains following plugins and their short description.
 - **Alpha** (Start-up screen)
 - **Auto Completion**
 - **Auto Pairs** (Opens and Closes all types of braches and quotes)
-- **Auto Save** (As name suggest, it auto-save when changed from `Insert Mode` to `Normal Mode.` Currently disabled.)
 - **Bufferline** (Creates Bufferline on the top)
 - **Catppuccin** (Theme)
 - **Copilot** (Official Github Copilot plugin for suggestions)
@@ -31,6 +30,7 @@ It contains following plugins and their short description.
 - **Mini.Move** (Move the lines horizontally or vertically)
 - **NeoTree** (File explorer)
 - **Noice** (Better command line and notification bar. Currently disabled.)
+- **SOS** (Auto save on lost focus and buffer leave.)
 - **Telescope**
 - **Toggle Term** (Toggle terminal within NeoVim)
 - **Treesitter**
@@ -38,7 +38,3 @@ It contains following plugins and their short description.
 - **Vim-Visual-Multi** (Selecting Multi lines)
 - **whichkeys** (Shows the description of combination keys)
 - **z-copilot & -cmp** (Makes Copilot experience smooth. Currently disabled)
-
-TODO
-
-- auto-save only when there is change in buffer/window
