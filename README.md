@@ -29,6 +29,7 @@ It contains following plugins and their short description.
 - **Mini.Move** (Move the lines horizontally or vertically)
 - **Neo-Scroll** (Smoother scroll)
 - **NeoTree** (File explorer)
+- **Neorg** (Note taking app)
 - **Noice** (Better command line and notification bar. Currently disabled)
 - **Nvim-Surround** (Select and surround the text with brackets and quotes)
 - **SOS** (Auto save on lost focus and buffer leave.)
