@@ -38,6 +38,7 @@ It contains following plugins and their short description.
 - **Treesitter**
 - **Vim-Expand-Region** (Select a word and expand the selection to next bracket/function)
 - **Vim-Terraform** (LSP and formatter for Terraform)
+- **Vim-Tmux-Navigator** (Jumping between the windows and tmux)
 - **Vim-Visual-Multi** (Selecting Multi lines)
 - **whichkeys** (Shows the description of combination keys)
 - **z-copilot & -cmp** (Makes Copilot experience smooth. Currently disabled)

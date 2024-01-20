@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- Indentation
 vim.cmd("set expandtab")
@@ -6,16 +7,10 @@ vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 
--- Navigate vim panes better
-vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
-vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
-vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
-vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
-
 -- Select all
 vim.keymap.set("n", "<c-a>", "ggVG<CR>")
 
-vim.keymap.set("n", "<Esc>", ":nohlsearch<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>nh", ":nohlsearch<CR>", { noremap = true })
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
@@ -37,5 +32,5 @@ vim.o.backspace = "indent,eol,start"
 vim.o.splitbelow = true
 vim.o.splitright = true
 
--- Is Keyword
+-- Is Keyword (considers dash as a word)
 vim.o.iskeyword = vim.o.iskeyword .. ",-"
