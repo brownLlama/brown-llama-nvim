@@ -38,6 +38,14 @@ return {
           g = { "<cmd>Flog<cr>", "Git Graph" },
           l = { "<cmd>LazyGit<cr>", "LazyGit" },
         },
+
+        -- Neorg
+        n = {
+          name = "Neorg",
+          s = { "<cmd>Neorg sync-parsers<cr>", "Sync Parsers" },
+          b = { "<cmd>Neorg workspace brownllama<cr>", "brownLlama Workspace" },
+          d = { "<cmd>Neorg workspace datadice<cr>", "datadice Workspace" },
+        },
       },
     })
   end,
