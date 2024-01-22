@@ -10,7 +10,7 @@ vim.cmd("set shiftwidth=2")
 -- Select all
 vim.keymap.set("n", "<c-a>", "ggVG<CR>")
 
-vim.keymap.set("n", "<leader>nh", ":nohlsearch<CR>", { noremap = true })
+vim.keymap.set("n", "<Esc>", ":nohlsearch<CR>", { noremap = true })
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
