@@ -16,6 +16,7 @@ It contains following plugins and their short description.
 - **Bufferline** (Creates Bufferline on the top)
 - **Catppuccin** (Theme)
 - **Copilot** (Official Github Copilot plugin for suggestions)
+- **Flow.nvim** (Run the codes quickly in buffer)
 - **Git-Graph** (Git graphs with better coloring and lines)
 - **Gitsigns** (Git signs are shown in the left side of buffer)
 - **Indent-blankline** (Vertical lines when there is indent to show, works nice to separate functions.)

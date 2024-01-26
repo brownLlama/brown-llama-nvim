@@ -39,13 +39,20 @@ return {
           l = { "<cmd>LazyGit<cr>", "LazyGit" },
         },
 
-        -- Neorg
-        n = {
-          name = "Neorg",
-          s = { "<cmd>Neorg sync-parsers<cr>", "Sync Parsers" },
-          b = { "<cmd>Neorg workspace brownllama<cr>", "brownLlama Workspace" },
-          d = { "<cmd>Neorg workspace datadice<cr>", "datadice Workspace" },
+        -- Flow
+        p = {
+          name = "Flow",
+          r = { "<cmd>FlowRunFile<cr>", "Run File" },
+          s = { "<cmd>FlowRunSelected<cr>", "Run Selected" },
         },
+
+        -- Neorg
+        -- n = {
+        --   name = "Neorg",
+        --   s = { "<cmd>Neorg sync-parsers<cr>", "Sync Parsers" },
+        --   b = { "<cmd>Neorg workspace brownllama<cr>", "brownLlama Workspace" },
+        --   d = { "<cmd>Neorg workspace datadice<cr>", "datadice Workspace" },
+        -- },
       },
     })
   end,
