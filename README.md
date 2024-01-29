@@ -42,4 +42,4 @@ It contains following plugins and their short description.
 - **Vim-Tmux-Navigator** (Jumping between the windows and tmux)
 - **Vim-Visual-Multi** (Selecting Multi lines)
 - **whichkeys** (Shows the description of combination keys)
-- **z-copilot & -cmp** (Makes Copilot experience smooth. Currently disabled)
+- **z-copilot-cmp** (Makes Copilot experience smooth.)
