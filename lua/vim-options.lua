@@ -34,3 +34,9 @@ vim.o.splitright = true
 
 -- Is Keyword (considers dash as a word)
 vim.o.iskeyword = vim.o.iskeyword .. ",-"
+
+-- Show Sign Column
+vim.o.signcolumn = "yes"
+
+-- Show column Line
+vim.o.colorcolumn = "80"
