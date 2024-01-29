@@ -44,3 +44,10 @@ It contains following plugins and their short description.
 - **Vim-Visual-Multi** (Selecting Multi lines)
 - **whichkeys** (Shows the description of combination keys)
 - **z-copilot-cmp** (Makes Copilot experience smooth.)
+
+## 🦒 User Plugins 🦒
+
+This directory contains, all those scripts/plugins that were written by different users from differernt corners of the internet, but don't have a plugin published in github.
+
+- **Rotate-window** (Rotates/Flip the buffers/window)
+- **Highlight-yank** (When yank, the selected text is highlighed. Currently disabled)
