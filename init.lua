@@ -25,6 +25,8 @@ require("lazy").setup("plugins")
 -- })
 
 -- Rotate Windows
+-- Author: Dillon Mulroy
+-- https://github.com/dmmulroy/dotfiles/blob/main/.config/nvim/lua/user/rotate_windows.lua
 vim.api.nvim_create_user_command("RotateWindows", function()
   local ignored_filetypes = { "neo-tree", "fidget", "Outline", "toggleterm", "qf", "notify" }
   local window_numbers = vim.api.nvim_tabpage_list_wins(0)
