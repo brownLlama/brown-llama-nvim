@@ -30,6 +30,7 @@ return {
           f = { "<cmd>Telescope find_files<cr>", "Find Files" },
           g = { "<cmd>Telescope live_grep<cr>", "Live Grep" },
           b = { "<cmd>Telescope buffers<cr>", "Buffers" },
+          w = { "<cmd>Telescope grep_string<cr>", "Current Word" },
         },
 
         -- Git
@@ -44,6 +45,13 @@ return {
           name = "Flow",
           r = { "<cmd>FlowRunFile<cr>", "Run File" },
           s = { "<cmd>FlowRunSelected<cr>", "Run Selected" },
+        },
+
+        -- Rotate Windows
+        o = {
+          name = "Other Features",
+          w = { "<cmd>RotateWindows<cr>", "Rotate Windows" },
+          l = { ":sil !open <cWORD><cr>", "Open Link" },
         },
 
         -- Neorg
