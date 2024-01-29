@@ -38,6 +38,7 @@ It contains following plugins and their short description.
 - **Toggle Term** (Toggle terminal within NeoVim)
 - **Treesitter**
 - **Vim-Expand-Region** (Select a word and expand the selection to next bracket/function)
+- **Vim-Illuminate** (Automatically highlights the same words in the buffer)
 - **Vim-Terraform** (LSP and formatter for Terraform)
 - **Vim-Tmux-Navigator** (Jumping between the windows and tmux)
 - **Vim-Visual-Multi** (Selecting Multi lines)
