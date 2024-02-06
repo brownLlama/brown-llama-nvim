@@ -47,6 +47,13 @@ return {
           s = { "<cmd>FlowRunSelected<cr>", "Run Selected" },
         },
 
+        -- Toggle Options
+        t = {
+          name = "Toggle Options",
+          t = { "<cmd>ToggleTerm<cr>", "Terminal" },
+          d = { ":DiagnosticsToggleVirtualText<cr>", "Diagnostics" },
+        },
+
         -- Rotate Windows
         o = {
           name = "Other Features",
