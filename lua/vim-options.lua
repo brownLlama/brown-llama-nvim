@@ -9,8 +9,12 @@ vim.cmd("set shiftwidth=2")
 
 -- Select all
 vim.keymap.set("n", "<c-a>", "ggVG<CR>")
+-- Fine Command Line
+-- vim.keymap.set("n", ":", "<cmd>FineCmdline<CR>")
 
+-- No Highlight
 vim.keymap.set("n", "<Esc>", ":nohlsearch<CR>", { noremap = true })
+
 vim.o.ignorecase = true
 vim.o.smartcase = true
 

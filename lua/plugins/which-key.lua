@@ -84,5 +84,22 @@ return {
 				i = { ":CopilotChatInPlace<cr>", "In-place code", mode = "x" },
 			},
 		}, { mode = "x", prefix = "<leader>" })
+
+		wk.register({
+			c = {
+				name = "Copilot", -- Optional: gives a name to this group of commands
+				c = {
+					function()
+						local input = vim.fn.input("Copilot Query: ")
+						-- Ensure input is not empty before proceeding
+						if input ~= "" then
+							-- Execute the CopilotChat command with the user's input
+							vim.cmd("CopilotChat " .. input)
+						end
+					end,
+					"Copilot Chat",
+				},
+			},
+		}, { prefix = "<leader>" })
 	end,
 }
