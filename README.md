@@ -33,6 +33,7 @@ It contains following plugins and their short description.
 - **Neorg** (Note taking app, currently disabled)
 - **Noice** (Better command line and notification bar. Currently disabled)
 - **Nvim-Surround** (Select and surround the text with brackets and quotes)
+- **Nvim-Treesitter-Context** (Show the function name on top)
 - **SOS** (Auto save on lost focus and buffer leave.)
 - **Telescope**
 - **Toggle Term** (Toggle terminal within NeoVim)
