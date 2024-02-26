@@ -49,32 +49,19 @@ return {
 				t = {
 					name = "Toggle Options",
 					t = { "<cmd>ToggleTerm<cr>", "Terminal" },
+					c = { "<cmd>CopilotChatVsplitToggle<cr>", "Copilot Chat" },
 				},
 
 				-- CopilotChat
 				c = {
 					name = "CopilotChat",
-					e = { "<cmd>CopilotChatExplain<cr>", "Explain" },
+					e = { "<cmd>CopilotChatExplain<cr>", "Explain yanked code" },
+					d = { "<cmd>CopilotChatFixDiagnostic<cr>", "Fix Diagnostic of current line" },
 				},
-
-				-- -- Flow
-				-- p = {
-				--   name = "Flow",
-				--   r = { "<cmd>FlowRunFile<cr>", "Run File" },
-				--   s = { "<cmd>FlowRunSelected<cr>", "Run Selected" },
-				-- },
-
-				-- Neorg
-				-- n = {
-				--   name = "Neorg",
-				--   s = { "<cmd>Neorg sync-parsers<cr>", "Sync Parsers" },
-				--   b = { "<cmd>Neorg workspace brownllama<cr>", "brownLlama Workspace" },
-				--   d = { "<cmd>Neorg workspace datadice<cr>", "datadice Workspace" },
-				-- },
 			},
 		})
 
-		-- Visual Mode Commands
+		-- Copilot Chat Visual Mode Commands
 		wk.register({
 			-- CopilotChat
 			c = {
@@ -84,6 +71,7 @@ return {
 			},
 		}, { mode = "x", prefix = "<leader>" })
 
+		-- Copilot Chat Query
 		wk.register({
 			c = {
 				name = "Copilot", -- Optional: gives a name to this group of commands
