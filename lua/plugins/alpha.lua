@@ -30,9 +30,10 @@ return {
 
 		-- Set menu
 		dashboard.section.buttons.val = {
-			dashboard.button("<Leader> e", "🦙 Explore", "<cmd>Neotree toggle right<cr>"),
-			dashboard.button("<Leader>ff", "🦒 Fuzzy Find", "<cmd>Telescope find_files<cr>"),
-			dashboard.button("q", "🐕 Quit NVIM", ":qa<CR>"),
+			dashboard.button("<Leader> e", "  Explore", "<cmd>Neotree toggle right<cr>"),
+			dashboard.button("<Leader>ff", "󰱼  Fuzzy Find", "<cmd>Telescope find_files<cr>"),
+			dashboard.button("<Leader>fg", "  Fuzzy Grep", "<cmd>Telescope live_grep<cr>"),
+			dashboard.button("q", "  Quit NVIM", ":qa<CR>"),
 		}
 
 		local function footer()
