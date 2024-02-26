@@ -16,7 +16,10 @@ return {
 				-- Exit Nvim
 				["q"] = { "<cmd>q<cr>", "Exit" },
 				-- Vertical Split
-				["v"] = { "<cmd>vsplit<cr>", "Vertical Split" },
+				["v"] = {
+					"<cmd>vsplit<CR><cmd>TmuxNavigateLeft<CR><cmd>BufferLineCyclePrev<CR>",
+					"Vertical Split",
+				},
 				-- Write
 				["w"] = { "<cmd>w<cr>", "Write" },
 				-- Close & Exit Buffer
@@ -29,6 +32,7 @@ return {
 					g = { "<cmd>Telescope live_grep<cr>", "Live Grep" },
 					b = { "<cmd>Telescope buffers<cr>", "Buffers" },
 					w = { "<cmd>Telescope grep_string<cr>", "Current Word" },
+					d = { "<cmd>Telescope diagnostics bufnr=0<CR>", "Diagnostics" },
 				},
 
 				-- Git

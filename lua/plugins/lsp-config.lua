@@ -12,16 +12,7 @@ return {
 		-- import cmp-nvim-lsp plugin
 		local cmp_nvim_lsp = require("cmp_nvim_lsp")
 
-		local keymap = vim.keymap -- for conciseness
-
-		local opts = { noremap = true, silent = true }
-		local on_attach = function(bufnr)
-			opts.buffer = bufnr
-
-			-- set keybinds
-			opts.desc = "Show buffer diagnostics"
-			keymap.set("n", "<leader>d", "<cmd>Telescope diagnostics bufnr=0<CR>", opts) -- show  diagnostics for file
-		end
+		local on_attach = function() end
 
 		-- used to enable autocompletion (assign to every lsp server config)
 		local capabilities = cmp_nvim_lsp.default_capabilities()
