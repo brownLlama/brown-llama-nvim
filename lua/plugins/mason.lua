@@ -27,14 +27,14 @@ return {
 		mason_lspconfig.setup({
 			-- list of servers for mason to install
 			ensure_installed = {
-				"lua_ls",
-				"bashls",
-				"dockerls",
-				"pyright",
-				"marksman",
-				"jsonls",
-				"terraformls",
-				"yamlls",
+				"lua_ls", -- lua
+				"bashls", -- bash
+				"dockerls", -- Dockerfile
+				"pyright", -- python
+				"marksman", -- markdown
+				"jsonls", -- json
+				"terraformls", -- terraform
+				"yamlls", -- yaml
 			},
 			-- auto-install configured servers (with lspconfig)
 			automatic_installation = true, -- not the same as ensure_installed
