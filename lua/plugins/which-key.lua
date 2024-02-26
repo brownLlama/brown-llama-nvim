@@ -47,7 +47,6 @@ return {
 				t = {
 					name = "Toggle Options",
 					t = { "<cmd>ToggleTerm<cr>", "Terminal" },
-					d = { ":DiagnosticsToggleVirtualText<cr>", "Diagnostics" },
 				},
 
 				-- Rotate Windows
