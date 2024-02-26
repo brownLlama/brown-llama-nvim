@@ -12,6 +12,5 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("vim-options")
-require("user.rotate-window")
 require("user.toggle_diagnostics")
 require("lazy").setup("plugins")

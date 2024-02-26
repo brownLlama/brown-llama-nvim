@@ -11,6 +11,8 @@ return {
 			["<leader>"] = {
 				-- Toggle Explorer
 				["e"] = { "<cmd>Neotree toggle right<cr>", "Toggle Explorer" },
+				-- Open Link
+				["l"] = { ":sil !open <cWORD><cr>", "Open Link" },
 				-- Markdown Preview
 				["m"] = { "<cmd>MPOpen<cr>", "Markdown Preview" },
 				-- Exit Nvim
@@ -47,13 +49,6 @@ return {
 				t = {
 					name = "Toggle Options",
 					t = { "<cmd>ToggleTerm<cr>", "Terminal" },
-				},
-
-				-- Rotate Windows
-				o = {
-					name = "Other Features",
-					w = { "<cmd>RotateWindows<cr>", "Rotate Windows" },
-					l = { ":sil !open <cWORD><cr>", "Open Link" },
 				},
 
 				-- CopilotChat
