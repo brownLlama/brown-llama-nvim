@@ -1,6 +1,6 @@
 # 🦙 Brown Llama 🦙
 
-Embarking on the journey with Neovim felt like stepping into a bustling metropolis of plugins and distros. I leaped from one distro to an2023DE903462other in pursuit of that elusive perfect setting—always feeling like something was missing in each iteration. The endless tweaking to tailor it to my preferences was no walk in the park. It demanded heaps of courage, effort, and time.
+Embarking on the journey with Neovim felt like stepping into a bustling metropolis of plugins and distros. I leaped from one distro to another in pursuit of that elusive perfect setting—always feeling like something was missing in each iteration. The endless tweaking to tailor it to my preferences was no walk in the park. It demanded heaps of courage, effort, and time.
 
 After a wild expedition through the Neovim universe, I proudly present my brainchild: "Brown Llama." It's my humble attempt to distill complexity into simplicity, fashioning a Neovim setup that resonates with my tastes.
 
@@ -10,45 +10,63 @@ Welcome to Brown Llama—where my Neovim journey meets my quirks. I hope you fin
 
 It contains following plugins and their short description.
 
-- **Alpha** (Start-up screen)
-- **Auto Completion**
-- **Auto Pairs** (Opens and Closes all types of braches and quotes)
-- **Bufferline** (Creates Bufferline on the top)
-- **Catppuccin** (Theme)
-- **Copilot** (Official Github Copilot plugin for suggestions)
-- **Flow.nvim** (Run the codes quickly in buffer)
-- **Git-Graph** (Git graphs with better coloring and lines)
-- **Gitsigns** (Git signs are shown in the left side of buffer)
-- **Indent-blankline** (Vertical lines when there is indent to show, works nice to separate functions.)
-- **Karenyank** (Differntiating between Copy, Paste and Delete)
-- **Lazygit** (Toggle Lazygit within Neovim)
-- **Leap** (Faster/jumping Vim movements)
-- **LSP & None/Null-ls** (LSP for programming language. These needs to be updated & installed as you want LSP for new language)
-- **LuaLine** (Status line on the bottom)
-- **Markdown Preview** (Preview panel for md files)
-- **Mini.Comment** (Commenting out by gcc)
-- **Mini.Move** (Move the lines horizontally or vertically)
-- **Neo-Scroll** (Smoother scroll)
-- **NeoTree** (File explorer)
-- **Neorg** (Note taking app, currently disabled)
-- **Noice** (Better command line and notification bar. Currently disabled)
-- **Nvim-Surround** (Select and surround the text with brackets and quotes)
-- **Nvim-Treesitter-Context** (Show the function name on top)
-- **SOS** (Auto save on lost focus and buffer leave.)
-- **Telescope**
-- **Toggle Term** (Toggle terminal within NeoVim)
-- **Treesitter**
-- **Vim-Expand-Region** (Select a word and expand the selection to next bracket/function)
-- **Vim-Illuminate** (Automatically highlights the same words in the buffer)
-- **Vim-Terraform** (LSP and formatter for Terraform)
-- **Vim-Tmux-Navigator** (Jumping between the windows and tmux)
-- **Vim-Visual-Multi** (Selecting Multi lines)
-- **whichkeys** (Shows the description of combination keys)
-- **z-copilot-cmp** (Makes Copilot experience smooth.)
+- **Alpha**: Start-up screen
+- **ASCII Tree**: To create ASCII tree file structure
+- **Auto Pairs**: Opens and Closes all types of braches and quotes
+- **Blame Nvim**: Shows the git blame. Currently disabled as it doesn't show the commit msg
+- **Bufferline**: Creates Bufferline on the top
+- **Copilot**: Official Github Copilot plugin
+- **Copilot Chat**: Chat with Copilot
+- **Formatting**: Formatters for different languages
+- **Git-Graph**: Git graphs with better coloring and lines
+- **Gitsigns**: Git signs are shown in the left side of buffer
+- **Indent Blankline**: Vertical lines when there is indent to show
+- **Karenyank**: Differntiating between Copy, Paste and Delete
+- **Lazygit**: Lazygit within Neovim
+- **Leap**: Faster/jumping Vim movements
+- **Linting**: Linters for different languages
+- **LSP Config**: Language Server Protocol for different languages
+- **LuaLine**: Status line on the bottom
+- **Markdown Preview**: Preview panel for markdown files
+- **Mason**: Snippets for different languages
+- **Mini Animate**: Animation while moving the cursor
+- **Mini Comment**: Commenting out by gcc
+- **Mini Move**: Move the lines horizontally or vertically
+- **Neo Scroll**: Smoother scroll
+- **Neo Tree**: File explorer
+- **None LSP**: LSP for different language
+- **Nvim CMP**: Completion plugin
+- **Nvim Surround**: Select and surround the text with brackets and quotes
+- **Nvim Treesitter Context**: Show the function name on top
+- **Nvim Web Dev Icons**: Icons for different files
+- **SOS**: Auto save on lost focus and buffer leave.
+- **Telescope**: Fuzzy finder
+- **Toggle Term**: Toggle terminal within NeoVim
+- **Treesitter**: Syntax highlighting
+- **Vim Expand Region**: Select a word and expand the selection to next bracket/function
+- **Vim Illuminate**: Automatically highlights the same words in the buffer
+- **Vim Terraform**: LSP and formatter for Terraform
+- **Vim Tmux Navigator**: Jumping between the windows and tmux
+- **Vim Visual Multi**: Selecting Multi lines
+- **Whichkeys**: Shows the description of combination keys
+- **Z Copilot Cmp**: Makes Copilot experience smoother
 
 ## 🦒 User Plugins 🦒
 
 This directory contains, all those scripts/plugins that were written by different users from differernt corners of the internet, but don't have a plugin published in github.
 
-- **Rotate-window** (Rotates/Flip the buffers/window)
-- **Highlight-yank** (When yank, the selected text is highlighed. Currently disabled)
+## 🐕 Themes 🐕
+
+- **Catppuccin**
+- **Nord**
+
+## 🐘 Non Active 🐘
+
+This directory contains plugins that is not active in the current setup, but have interesting features.
+
+- **Fine CMD Line**: Better command line
+- **Highlight-yank**: When yank, the selected text is highlighed
+- **Neorg**: Note taking app
+- **Noice**: Better notification plugin
+- **Nvim Scroll view**: Shows the scroll bar on the right side
+- **Rotate-window**: Rotates/Flip the buffers/window
