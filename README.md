@@ -49,7 +49,8 @@ It contains following plugins and their short description.
 - **Vim Tmux Navigator**: Jumping between the windows and tmux
 - **Vim Visual Multi**: Selecting Multi lines
 - **Whichkeys**: Shows the description of combination keys
-- **Z Copilot Cmp**: Makes Copilot experience smoother
+- **Z Copilot Cmp**: Makes Copilot complition better
+- **Z Copilot **: Better Copilot experience
 
 ## 🦒 User Plugins 🦒
 
