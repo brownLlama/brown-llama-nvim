@@ -50,7 +50,7 @@ return {
 				"pydocstyle",
 				"flake8",
 				"ruff",
-				"mypy",
+				--"mypy",
 				"shellcheck",
 				"jsonlint",
 				"yamllint",

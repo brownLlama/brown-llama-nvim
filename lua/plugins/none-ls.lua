@@ -23,7 +23,7 @@ return {
 				"pydocstyle", -- python linter
 				"flake8", -- python linter
 				"ruff", -- python linter
-				"mypy", -- python linter
+				--"mypy", -- python linter
 				"shellcheck", -- shell linter
 				"terraform_lint", -- terraform linter
 				"jsonlint", -- json linter
@@ -56,7 +56,7 @@ return {
 				diagnostics.pydocstyle, -- python linter
 				diagnostics.flake8, -- python linter
 				diagnostics.ruff, -- python linter
-				diagnostics.mypy, -- python linter
+				-- diagnostics.mypy, -- python linter
 				diagnostics.shellcheck, -- shell linter
 				diagnostics.terraform_lint, -- terraform linter
 				diagnostics.jsonlint, -- json linter
