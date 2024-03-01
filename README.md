@@ -50,7 +50,7 @@ It contains following plugins and their short description.
 - **Vim Visual Multi**: Selecting Multi lines
 - **Whichkeys**: Shows the description of combination keys
 - **Z Copilot Cmp**: Makes Copilot complition better
-- **Z Copilot **: Better Copilot experience
+- **Z Copilot**: Better Copilot experience
 
 ## 🦒 User Plugins 🦒
 
