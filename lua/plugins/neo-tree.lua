@@ -1,5 +1,5 @@
 return {
-	-- "nvim-neo-tree/neo-tree.nvim",
+	"nvim-neo-tree/neo-tree.nvim",
 	branch = "v3.x",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
@@ -14,15 +14,14 @@ return {
 					visible = true,
 				},
 			},
-			event_handlers = {
-				-- Closes the explorer when a file is opened
-				-- {
-				-- 	event = "file_opened",
-				-- 	handler = function()
-				-- 		require("neo-tree.command").execute({ action = "close" })
-				-- 	end,
-				-- },
-			},
+			-- event_handlers = {
+			-- 	{
+			-- 		event = "file_opened",
+			-- 		handler = function()
+			-- 			require("neo-tree.command").execute({ action = "close" })
+			-- 		end,
+			-- 	},
+			-- },
 			source_selector = {
 				winbar = false,
 				statusline = false,
