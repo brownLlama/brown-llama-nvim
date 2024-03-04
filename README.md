@@ -71,3 +71,4 @@ This directory contains plugins that is not active in the current setup, but hav
 - **Noice**: Better notification plugin
 - **Nvim Scroll view**: Shows the scroll bar on the right side
 - **Rotate-window**: Rotates/Flip the buffers/window
+- **Windows Nvim**: Increase the active buffer with animation
