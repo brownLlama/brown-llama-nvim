@@ -20,6 +20,7 @@ It contains following plugins and their short description.
 - **Formatting**: Formatters for different languages
 - **Git-Graph**: Git graphs with better coloring and lines
 - **Gitsigns**: Git signs are shown in the left side of buffer
+- **Glow**: Markdown preview
 - **Indent Blankline**: Vertical lines when there is indent to show
 - **Karenyank**: Differntiating between Copy, Paste and Delete
 - **Lazygit**: Lazygit within Neovim
@@ -27,7 +28,6 @@ It contains following plugins and their short description.
 - **Linting**: Linters for different languages
 - **LSP Config**: Language Server Protocol for different languages
 - **LuaLine**: Status line on the bottom
-- **Markdown Preview**: Preview panel for markdown files
 - **Mason**: Snippets for different languages
 - **Mini Animate**: Animation while moving the cursor
 - **Mini Comment**: Commenting out by gcc
@@ -67,6 +67,7 @@ This directory contains plugins that is not active in the current setup, but hav
 
 - **Fine CMD Line**: Better command line
 - **Highlight-yank**: When yank, the selected text is highlighed
+- **Markdown Preview**: Preview panel for markdown files
 - **Neorg**: Note taking app
 - **Noice**: Better notification plugin
 - **Nvim Scroll view**: Shows the scroll bar on the right side

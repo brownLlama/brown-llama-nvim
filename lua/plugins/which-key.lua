@@ -14,7 +14,7 @@ return {
 				-- Open Link
 				["l"] = { ":sil !open <cWORD><cr>", "Open Link" },
 				-- Markdown Preview
-				["m"] = { "<cmd>MPOpen<cr>", "Markdown Preview" },
+				-- ["m"] = { "<cmd>MPOpen<cr>", "Markdown Preview" },
 				-- Exit Nvim
 				["q"] = { "<cmd>q<cr>", "Exit" },
 				-- Vertical Split
