@@ -10,7 +10,6 @@ if not vim.loop.fs_stat(lazypath) then
 	})
 end
 vim.opt.rtp:prepend(lazypath)
-
 require("vim-options")
 require("user.toggle_diagnostics")
 require("user.glow-split-screen")
