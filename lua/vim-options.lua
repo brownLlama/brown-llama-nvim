@@ -3,9 +3,10 @@ vim.g.maplocalleader = " "
 
 -- Indentation
 vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
+vim.cmd("set tabstop=4")
+vim.cmd("set softtabstop=4")
+vim.cmd("set shiftwidth=4")
+vim.cmd("set smartindent")
 vim.cmd("set cursorline")
 
 -- Select all
@@ -44,4 +45,4 @@ vim.o.iskeyword = vim.o.iskeyword .. ",-"
 vim.o.signcolumn = "yes"
 
 -- Show column Line
-vim.o.colorcolumn = "80"
+vim.o.colorcolumn = "120"

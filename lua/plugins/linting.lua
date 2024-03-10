@@ -9,7 +9,7 @@ return {
 			lua = { "selene" },
 			bash = { "shellcheck" },
 			docker = { "hadolint" },
-			python = { "flake8", "pydocstyle", "ruff" }, --, "mypy" },
+			python = { "ruff", "pydocstyle", "flake8" }, --, "mypy" },
 			markdown = { "markdownlint" },
 			terraform = { "tflint" },
 			yaml = { "yamllint" },

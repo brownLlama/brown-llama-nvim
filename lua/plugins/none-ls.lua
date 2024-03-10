@@ -50,6 +50,7 @@ return {
 				formatting.prettier, -- js/ts formatter
 				formatting.terraform_fmt, -- terraform formatter
 				formatting.black, -- python formatter
+				formatting.ruff, -- python formatter
 				formatting.isort, -- python formatter
 				formatting.shfmt, -- shell formatter
 
