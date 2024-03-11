@@ -8,11 +8,11 @@ return {
 		conform.setup({
 			formatters_by_ft = {
 				lua = { "stylua" },
-				bash = { { "shfmt", "beautysh" } },
-				python = { { "ruff", "isort", "black" } },
+				bash = { "shfmt", "beautysh" },
+				python = { "ruff", "isort", "black" },
 				markdown = { "prettier" },
 				json = { "prettier" },
-				yaml = { { "prettier", "yamlfix" } },
+				yaml = { "prettier", "yamlfix" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
