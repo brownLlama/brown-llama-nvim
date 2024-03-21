@@ -13,6 +13,7 @@ return {
 				markdown = { "prettier" },
 				json = { "prettier" },
 				yaml = { "prettier", "yamlfix" },
+				graphql = { "prettier" },
 			},
 			format_on_save = {
 				lsp_fallback = true,

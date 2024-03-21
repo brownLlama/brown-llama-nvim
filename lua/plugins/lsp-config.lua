@@ -87,5 +87,11 @@ return {
 			capabilities = capabilities,
 			on_attach = on_attach,
 		})
+
+		-- configure graphql server
+		lspconfig["graphql"].setup({
+			capabilities = capabilities,
+			on_attach = on_attach,
+		})
 	end,
 }
